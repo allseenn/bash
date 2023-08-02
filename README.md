@@ -1,3 +1,2 @@
 local README.md
-STROGINO
-
+sTrOgInO
