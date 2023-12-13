@@ -80,7 +80,7 @@ fi
 
 if [[ $OPERATION = ROTAT ]]
 then
-# OUT=`zenity --file-selection --save --title="Название измененного файла?"`
+OUT=`zenity --file-selection --save --title="Название измененного файла?"`
 GRAD=`zenity --forms --title="Выбор градуса" --text="Градус вращения" --add-entry="90"`
-convert -rotate $GRAD $IN $IN
+convert -rotate $GRAD $IN $OUT
 fi

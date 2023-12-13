@@ -2,7 +2,7 @@
 
 ## Description
 
-Utility writen on bash using zenity, could do with pdf files:
+[Utility](pdf) writen on bash using zenity, could do with pdf files:
 - Extract nessesary pages
 - Extract all pagase to seperate pdf files
 - Reduce file size with 3 preset options
